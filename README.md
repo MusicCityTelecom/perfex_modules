@@ -1,66 +1,94 @@
-Multi-Contact Email Module for Perfex CRM
-Free & Open Community Contribution – Use at Your Own Risk
+TechFinity Custom Perfex CRM Modules
+Free Community Modules – Use at Your Own Risk
 Overview
 
-The Multi-Contact Email Module extends Perfex CRM by allowing a single contact to be associated with multiple customers. This module was developed for environments where a shared contact (for example, an accounting department, management team, or centralized email recipient) needs to receive communication across multiple client records.
+This repository contains a collection of custom Perfex CRM modules developed to extend core system functionality, improve workflow efficiency, and support specialized business requirements. These modules are made available free of charge to the Perfex community.
 
-This module is provided free of charge to the Perfex CRM community.
+Each module in this collection is designed to integrate seamlessly with Perfex CRM without requiring manual modifications to core application files whenever possible. Individual modules include their own README files describing features, configuration steps, and usage guidelines.
 
-Important Notice
+Important Disclaimer
 
-This module is supplied as-is, with no guarantees, no warranty, and no certification of compatibility beyond the versions tested during development.
-Perfex CRM updates frequently, and architectural changes may affect module behavior in future versions.
-Because of this, the following applies:
+All modules in this collection are provided as-is, with no warranty, no guarantee of compatibility, and no assurance of performance across all versions or configurations of Perfex CRM.
 
-This module has not been tested under every version of Perfex CRM.
+By downloading, installing, or using any module in this repository, you acknowledge and agree to the following:
 
-You are solely responsible for evaluating its compatibility with your environment.
+These modules have not been tested against every version of Perfex CRM.
 
-By installing or using this module, you acknowledge that you do so at your own risk.
+Compatibility may vary depending on your system, customizations, hosting environment, or third-party modules.
 
-The author and contributors assume no liability for data loss, system issues, malfunctions, or business impacts resulting from its use.
+You are solely responsible for evaluating suitability and stability in your own deployment.
 
-If you require commercially supported, guaranteed-compatible modules, please use official Perfex CRM modules or consult a professional developer.
+The authors, contributors, and maintainers assume no liability for data loss, system malfunction, downtime, or any business impact resulting from use.
 
-Features
+Updates to Perfex CRM may break functionality at any time; compatibility fixes are not guaranteed.
 
-Assign a single contact to multiple customers.
+If you require commercial support, guaranteed compatibility, or long-term maintenance, please consult a professional developer or use officially supported modules.
 
-Maintain clean relationships for cross-organization communication.
+Included Modules
 
-Minimal changes required to existing workflows.
+This repository may include (but is not limited to):
 
-Designed to integrate without modifying core Perfex CRM files manually.
+Multi-Contact Email Enhancements
 
-Installation Instructions
+Customer & Contact Relationship Extensions
+
+Custom Reporting & Analytics Add-ons
+
+UI/UX Improvements
+
+Communication Integrations
+
+Workflow Automation Modules
+
+Administrative Tools and Utilities
+
+Each module folder includes its own feature description and usage documentation.
+
+Installation (General)
+
+For all modules in this collection:
 
 Upload the module folder into:
-modules/multi_contact_email/
+modules/<module_name>/
 
-Ensure correct naming and directory structure.
+Verify the folder name matches the module’s internal name.
 
-Navigate to Setup → Modules inside Perfex CRM.
+Log in to Perfex CRM and navigate to:
+Setup → Modules
 
-Locate Multi-Contact Email Module and click Activate.
+Locate the module and click Activate.
 
-Clear cache if needed and test the module in a non-production environment before deploying live.
+Clear cache if necessary and test thoroughly in a non-production environment before deploying live.
+
+Refer to each module’s individual README for any additional installation or configuration steps.
 
 Compatibility
 
-Designed for modern Perfex CRM versions.
+Designed for modern versions of Perfex CRM (3.x+).
 
-May require adjustments for older or significantly customized installations.
+Older versions or heavily customized systems may require adjustments.
 
-Future Perfex updates may change how contacts and customers are linked.
+Future updates to Perfex CRM may affect module functionality.
 
 Support & Contributions
 
-This is a free, community-driven module.
-Support, updates, and feature expansions are not guaranteed.
+This module collection is offered as a free community resource.
+Support, updates, and feature development are provided on a best-effort basis and are not guaranteed.
 
-If you wish to contribute improvements or report issues, please do so constructively by providing clear steps, version details, and any logs/errors.
+Users may contribute by:
 
-License
+Submitting improvements
 
-Released for free public use under an as-is, no-warranty license.
-You may modify it for your own environment. Redistribution should include this README and disclaimer.
+Reporting bugs
+
+Providing compatibility notes
+
+Suggesting new enhancements
+
+Constructive, detailed reports help improve the module ecosystem.
+
+Licensing
+
+All modules in this repository are released as-is under a no-warranty license.
+You may modify modules for personal or internal use.
+Redistribution should include this master README along with individual module disclaimers.
