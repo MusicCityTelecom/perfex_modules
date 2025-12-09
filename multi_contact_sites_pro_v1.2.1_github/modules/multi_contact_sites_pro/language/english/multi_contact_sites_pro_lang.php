@@ -1,0 +1,20 @@
+<?php
+$lang['mcsp_tab_title'] = 'Multi Contact Sites PRO';
+$lang['mcsp_settings_tab'] = 'Multi Contact Sites PRO';
+$lang['mcsp_tab_help'] = 'Link a contact to additional customers (sites). The contact can switch sites in the client portal without re-login. The module also allows the same email to be used across different customers and fixes the email validator.';
+$lang['mcsp_contact_id'] = 'Contact ID';
+$lang['mcsp_customer_id'] = 'Customer (Site) ID';
+$lang['mcsp_link_btn'] = 'Link';
+$lang['mcsp_unlink_btn'] = 'Unlink';
+$lang['mcsp_existing_links'] = 'Existing Links for this Customer';
+$lang['mcsp_no_links'] = 'No links found for this customer.';
+$lang['mcsp_company'] = 'Company';
+$lang['mcsp_my_sites'] = 'My Sites';
+$lang['mcsp_no_linked_sites'] = 'No linked sites.';
+$lang['mcsp_switch'] = 'Switch';
+$lang['mcsp_manage'] = 'Manage…';
+$lang['mcsp_switched'] = 'Switched site.';
+$lang['mcsp_switch_failed'] = 'Unable to switch site.';
+$lang['mcsp_linked'] = 'Linked.';
+$lang['mcsp_invalid_input'] = 'Invalid input.';
+$lang['mcsp_unlinked'] = 'Unlinked.';
